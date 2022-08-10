@@ -50,7 +50,8 @@
 
 .music {
     position: absolute;
-    bottom: 5%;
+    top: 15%;
+    left: 5%;
 }
 
 .github {
@@ -58,6 +59,7 @@
     top: 5%;
     left: 5%;
     color: black;
-    font-size: 18px;
+    font-size: 1.5rem;
+    line-height: 2rem;
 }
 
