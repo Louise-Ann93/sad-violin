@@ -22,10 +22,10 @@
 
 @media only screen and (max-width: 800px) {
     .violin {
-        width: 90%;
+        width: 100%;
     }
     .bow  {
-        width: 90%;
+        width: 100%;
     }
 }
 .bow {
@@ -61,5 +61,11 @@
     color: black;
     font-size: 1.5rem;
     line-height: 2rem;
+}
+
+.disclaimer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
