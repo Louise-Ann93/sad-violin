@@ -18,32 +18,43 @@
     width: 50%;
     position: absolute;
     transform: rotate(-45deg);
+    animation: tilt 5s linear;
+    animation-iteration-count: infinite;
 }
 
-@media only screen and (max-width: 800px) {
-    .violin {
-        width: 100%;
-    }
-    .bow  {
-        width: 100%;
+@keyframes tilt {
+    50% {
+        transform: rotate(-55deg);
     }
 }
+
 .bow {
     width: 50%;
     position: absolute;
     left: 25%;
-    animation: play 1s linear;
+    animation: play 2s linear;
     animation-iteration-count: infinite;
 }
 
 @keyframes play {
     0% {
+        transform: rotate(-15deg);
         left: 20%;
     }
+    25% {
+        transform: rotate(20deg);
+        left: 30%;
+    }
     50% {
+        transform: rotate(0deg);
+        left: 20%;
+    }
+    75% {
+        transform: rotate(20deg);
         left: 30%;
     }
     100% {
+        transform: rotate(-15deg);
         left: 20%;
     }
 }
