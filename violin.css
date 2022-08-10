@@ -22,10 +22,10 @@
 
 @media only screen and (max-width: 800px) {
     .violin {
-        width: 75%;
+        width: 90%;
     }
     .bow  {
-        width: 75%;
+        width: 90%;
     }
 }
 .bow {
@@ -51,5 +51,13 @@
 .music {
     position: absolute;
     bottom: 5%;
+}
+
+.github {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: black;
+    font-size: 18px;
 }
 
